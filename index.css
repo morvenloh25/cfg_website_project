@@ -1,0 +1,12 @@
+body {
+  padding-top: 5rem;
+  background-color: #e8fff5;
+}
+h1 {
+  font-family: helvetica;
+  text-align: center;
+  font-size: 80px;
+  font-stretch: expanded;
+  padding: 3rem 1.5rem;
+  letter-spacing: 15px;
+}
