@@ -1,12 +1,70 @@
 body {
-  padding-top: 5rem;
-  background-color: #e8fff5;
+  font-family: avenir;
 }
+
+#mainNav {
+background-color: white;
+}
+
+#body_one {
+  background-color: #e8fff5;
+  height
+}
+
 h1 {
-  font-family: helvetica;
+  font-family: avenir;
   text-align: center;
   font-size: 80px;
   font-stretch: expanded;
   padding: 3rem 1.5rem;
   letter-spacing: 15px;
+  padding-top: 150px;
+  padding-bottom: 300px;
+}
+
+#landing_img{
+position: absolute;
+top: -50px;
+left: 50px;
+padding-top: 150px;
+padding-bottom: 300px;
+  padding: 3rem 1.5rem;
+}
+
+
+.col-sm {
+  padding: 20px;
+}
+
+.row {
+  padding: 25px;
+}
+
+
+.stories {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #ffbb94;
+  text-align: center;
+}
+
+.art {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #e8fff5;
+  text-align: center;
+}
+
+.blog {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #ffbb94;
+  text-align: center;
+}
+
+.events {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #e8fff5;
+  text-align: center;
 }
