@@ -6,75 +6,103 @@ body {
     background-origin: content-box;
     background-size: cover;
     background-position: center;
-    opacity: 0.9;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
 
-#mainNav .container-fluid {
+.transparent {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.mainNav {
   text-align: center;
-  background-color: #ffffff;
   padding-bottom: 70px;
   margin-top: -10px;
   margin-bottom: 30px;
   position: fixed;
 }
 
+.row {
+  padding: 30px;
+}
+
 h1 {
-  font-size: 150px;
-  text-align: right;
-  font-stretch: expanded;
-  letter-spacing: 30px;
-  padding-top: 100px;
-  padding-right: 10px;
-  color: #ffbb94;
-  opacity: 1;
+    font-size: 1000%;
+    color: #ffbb94;
+    opacity: 1;
+    font-stretch: expanded;
+    letter-spacing: 30px;
+    text-align: right;
+    padding-top: 10%;
+    margin-right: 0%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 150%;
   text-align: right;
   font-stretch: expanded;
-  color: #ffbb94;
-  padding-top: 80px;
-  padding-bottom: 350px;
-  padding-right: 10px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 10%;
+  margin-right: 0%;
   opacity: 1;
 }
 
-#dynamicBlog {
-  background-color: white;
+#title {
+  background-color: #ffbb94;
+  padding-left: -30px;
+  opacity: 0.9;
+}
+
+.dynamicBlog {
   text-align: center;
   position: center;
   padding-bottom: 70px;
   margin-top: -10px;
   margin-bottom: 30px;
-
 }
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffbb94;
+  text-decoration: none;
+}
+
 
 h3 {
   text-align: left;
-  font-size: 40px;
+  font-size: 4%;
   padding-top: 40px;
   margin-left: 40px;
   font-size: 30px;
 }
 
-.col-sm-4 {
+.col-sm-3 {
   position: relative;
+  padding-bottom: 15px;
 }
 
 .dyanmicBlogImage{
   cursor: pointer;
   width: 200px;
   height: 200px;
+  top: 0;
+  left: 30%
+
 }
 
 .dynamicBlogText{
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   position: absolute;
   top: 0;
-  left: 0%;
+  left: 50%;
+  margin-left: -100px;
   width: 200px;
   height: 200px;
   text-align: center;
@@ -85,76 +113,19 @@ h3 {
   -moz-transition: opacity 0.6s;
   transition: opacity 0.6s;
   vertical-align: middle;
-  line-height:200px;
+  line-height:170%;
+
   }
 
 .dynamicBlogText:hover {
   opacity: 1;
 }
 
-.col-sm {
-  padding: 70px;
-}
 
-.row {
-  padding: 30px;
-}
-
-
-.stories {
+.submit, .art, .events, .stories, .blog {
   text-align: center;
-  background-color: white;
-  height: 400px;
   position: relative;
-  margin-top:: -50px;
-  padding-top: -50px;
-  padding-bottom: 50px;
   margin-bottom: 50px;
-  }
-
-.blog {
-  text-align: center;
-  background-color: white;
-  height: 400px;
-  position: relative;
-  margin-top:: -50px;
-  padding-top: -50px;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-}
-
-.events {
-  text-align: center;
-  background-color: white;
-  height: 400px;
-  position: relative;
-  margin-top:: -50px;
-  padding-top: -50px;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-}
-
-.art {
-  text-align: center;
-  background-color: white;
-  height: 400px;
-  position: relative;
-  margin-top:: -50px;
-  padding-top: -50px;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-}
-
-.submit {
-  text-align: center;
-  background-color: white;
-  height: 400px;
-  position: relative;
-  margin-top:: -50px;
-  padding-top: -50px;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-
 }
 
 h2 {
@@ -166,10 +137,14 @@ p {
 }
 
 .navSiteImage {
-  position=center;
+  position: relative;
   padding-right: 0px;
   margin-top:: -20px;
   padding-top: -20px;
   padding-bottom: 20px;
   margin-bottom: 20px;
+}
+
+#copyright {
+  color: black;
 }

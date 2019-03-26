@@ -9,10 +9,12 @@
     <title>CSNDRA</title>
 
     <!-- Bootstrap core -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- css link -->
   <link rel="stylesheet" type="text/css" href="../css/index.css">
@@ -25,8 +27,7 @@
 <body>
 
     <!--Navigation bar-->
-<div id="mainNav">
-  <div class="container-fluid">
+  <div class="container-fluid mainNav transparent">
 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
        <a class="navbar-brand js-scroll-trigger" href="https://www.google.com" height="60" width="60">Escape Site</a>
@@ -36,9 +37,7 @@
 
        <div class="collapse navbar-collapse">
          <ul class="navbar-nav ml-auto">
-           <li class="nav-item">
-             <a class="nav-link js-scroll-trigger" href="">Search</a>
-           </li>
+
            <li class="nav-item">
              <a class="nav-link js-scroll-trigger" href="">Menu</a>
            </li>
@@ -46,83 +45,71 @@
        </div>
 
      </nav>
-</div></div>
-
-<!--title and landing-->
-<div id="title">
-
-  <div class ="container">
-    <div class="col-12">
-        <h1>CSNDRA</h1>
-    </div>
-
-    <div ="col-12">
-        <h5> for survivors of abuse (or anyone who has directly <br> or indirectly experienced abuse) to <br>connect to each other through the <br>power of storytelling,<br> events and positive<br> & empowering content. </h5>
-    </div>
-
-  </div>
 </div>
 
+<!--title and landing-->
+  <div class ="container title">
+    <div class="col-12"> <h1><span>CSNDRA</span></h1></div>
+      <div class="row">
+          <div class="col-12"> <h5><span id="title">for survivors of abuse (or anyone who <br>has directly or indirectly experienced <br>abuse) to connect to each other <br>through the power of <br>storytelling, events and <br>positive & empowering <br>content </span></h5> </div>
+      </div>
+  </div>
 
 <!--dynamic blog-->
-<div id="dynamicBlog">
-
-<h3> Read the latest posts</h3>
-
-  <div class="container-fluid">
-
+<div class="container-fluid dynamicBlog transparent">
+  <h3> Read the latest posts</h3>
       <div class="row">
-
-          <div class="col-sm-4">
+          <div class="col-sm-3">
               <div class="dynamicBlogImage"> <img src="../images/matisse/m.1.png" width="200" height="200" alt="image"></div>
-                <div class ="dynamicBlogText">text</div>
+                <div class ="dynamicBlogText"> <a href="https://www.huffingtonpost.co.uk/entry/international-womens-day-domestic-abuse_uk_5c814c94e4b0e62f69eac4d2">The Domestic Abuse Bill fails Migrant & BAME Women <br>by Zehrah Hasan</a></div>
          </div>
 
-         <div class="col-sm-4">
+         <div class="col-sm-3">
              <div class="dynamicBlogImage"> <img src="../images/matisse/m.2.png" width="200" height="200" alt="image"></div>
                <div class ="dynamicBlogText">text</div>
         </div>
 
-        <div class="col-sm-4">
-            <div class="dynamicBlogImage"> <img src="../images/matisse/m.3.png" width="200" height="200" alt="image"></div>
+        <div class="col-sm-3">
+            <div class="dynamicBlogImage"> <img src="../images/matisse/m.2.png" width="200" height="200" alt="image"></div>
               <div class ="dynamicBlogText">text</div>
        </div>
 
-    </div></div>
+        <div class="col-sm-3">
+            <div class="dynamicBlogImage"> <img src="../images/matisse/m.3.png" width="200" height="200" alt="image"></div>
+              <div class ="dynamicBlogText">text</div>
+       </div>
+    </div>
 
-<div class="container-fluid">
+    <div class="row">
 
-  <div class="row">
-
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <div class="dynamicBlogImage"> <img src="../images/matisse/m.4.png" width="200" height="200" alt="image"></div>
           <div class ="dynamicBlogText">text</div>
       </div>
 
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <div class="dynamicBlogImage"> <img src="../images/matisse/m.5.png" width="200" height="200" alt="image"></div>
           <div class ="dynamicBlogText">text</div>
       </div>
 
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <div class="dynamicBlogImage"> <img src="../images/matisse/m.6.png" width="200" height="200" alt="image"></div>
           <div class ="dynamicBlogText">text</div>
       </div>
 
-  </div></div>
-</div>
+      <div class="col-sm-3">
+          <div class="dynamicBlogImage"> <img src="../images/matisse/m.2.png" width="200" height="200" alt="image"></div>
+            <div class ="dynamicBlogText">text</div>
+     </div>
 
+  </div>
+</div>
 <!--end of dyanmic blog-->
 
-
-
 <!--static site navigation-->
+<div class ="container extendedmenu">
 
-<div id="navigationSite">
-
-<div class ="container">
-
-  <div class="stories">
+  <div class="stories transparent">
       <div class="row">
           <div class="col-sm-6">
               <h2> Stories </h2>
@@ -135,54 +122,51 @@
     </div>
   </div>
 
-  <div class="blog">
+  <div class="blog transparent">
       <div class="row">
           <div class="col-sm-6">
-              <h2> Blog </h2>
-              <br><p>For anything and everything relating to feminism, womxn's rights, race, queer rights, class, identity, politics, news, opinions or general thoughts & feelings on social or cultural issues.</p></br>
+            <div class="navSiteImage"> <img src="../images/matisse/blog.jpeg" height="300" width="250"></div>
           </div>
         <div class="col-sm-6">
-            <div class="navSiteImage"> <img src="../images/matisse/stories.jpg" height="300" width="250">
+            <h2> Blog </h2>
+              <br><p>For anything and everything relating to feminism, womxn's rights, race, queer rights, class, identity, politics, news, opinions or general thoughts & feelings on social or cultural issues.</p></br>
         </div>
       </div>
-    </div>
-  </div>
+ </div>
 
-  <div class="events">
+
+  <div class="events transparent">
       <div class="row">
           <div class="col-sm-6">
               <h2> Events </h2>
               <br><p>The consistent rates of cuts to public funding means that community spaces, events, arts, cultures, projects and organisations are either being axed or they don’t have the budget to be able to advertise or promote the amazing work they do, which has left people feeling isolated and alone. This platform has been created to provide a free space for anyone to advertise the work they do, projects they are working on or stories they want to share.<p></br>
-
           </div>
         <div class="col-sm-6">
-            <div class="navSiteImage"> <img src="../images/matisse/matisse.dancers.c.jpg" height="300" width="250">
-        </div>
+            <div class="navSiteImage"> <img src="../images/matisse/matisse.dancers.c.jpg" height="300" width="250"></div>
+       </div>
+    </div>
+  </div>
+
+  <div class="art transparent">
+      <div class="row">
+        <div class="col-sm-6">
+            <div class="navSiteImage"> <img src="../images/matisse/events.jpeg" height="300" width="250"></div>
+      </div>
+      <div class="col-sm-6">
+          <h2> Media </h2>
+          <br></p>Healing is different for everybody, it looks, sounds and feels unique to you. This space is for anything media related that has helped or had an effect on you & you want to share with the world. From illustrations, to sculpture, to digital art, to animation... from photography, to film, to music, to spoken word, a youtube video, or ted talk, we have it all.</p></br>
       </div>
     </div>
   </div>
 
-  <div class="art">
+  <div class="submit transparent">
       <div class="row">
           <div class="col-sm-6">
-              <h2> Media </h2>
-              <br></p>Healing is different for everybody, it looks, sounds and feels unique to you. This space is for anything media related that has helped or had an effect on you & you want to share with the world. From illustrations, to sculpture, to digital art, to animation... from photography, to film, to music, to spoken word, a youtube video, or ted talk, we have it all.</p></br>
-          </div>
-        <div class="col-sm-6">
-            <div class="navSiteImage"> <img src="../images/matisse/stories.jpg" height="300" width="250">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="submit">
-      <div class="row">
-          <div class="col-sm-6">
-              <h2> Submit a Story, Event or Media to CSNDRA </h2>
+              <h2> Submit a Story, Event or Media </h2>
               <br></p>Click here to read the guidelines & to submit something for publication.</p></br>
           </div>
           <div class="col-sm-6">
-              <div class="navSiteImage"> <img src="../images/matisse/stories.jpg" height="300" width="250">
+              <div class="navSiteImage"> <img src="../images/matisse/submit.jpg" height="300" width="250">
           </div>
         </div>
     </div>
@@ -190,5 +174,44 @@
 
 </div> </div>
 
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4 footer transparent">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <class="facebookbutton">
+            <a href="https://www.facebook.com/"><img src="../images/facebook.png" height="50" width="50"></a>
+        </li>
+        <li class="list-inline-item">
+          <class="twitterbutton">
+            <a href="https://www.twitter.com"><img src="../images/twitter.png" height="50" width="50"></a>
+        </li>
+        <li class="list-inline-item">
+          <class="instagrambutton">
+            <a href="https://www.instagram.com"><img src="../images/insta.png" height="50" width="50"></a>
+        </li>
+        <li class="list-inline-item">
+          <class="linkedinbutton">
+            <a href="https://www.linkedin.com"><img src="../images/linkedin.png" height="50" width="50"></a>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a id="copyright" href="https://www.google.com/search?q=smiling+llama&rlz=1C5CHFA_enGB768GB768&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiAub7lq6DhAhVWRhUIHcwFBqwQ_AUIDigB&biw=1400&bih=701"> Morven, Sarah & Michelle are awesome</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
 </body>
 </html>
