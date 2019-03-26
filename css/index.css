@@ -1,0 +1,175 @@
+body {
+    width: 100vw;
+    height: 100vw;
+    font-family: 'Inconsolata', monospace;
+    background-image: url('../images/greenplants.jpg');
+    background-origin: content-box;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+#mainNav .container-fluid {
+  text-align: center;
+  background-color: #ffffff;
+  padding-bottom: 70px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  position: fixed;
+}
+
+h1 {
+  font-size: 150px;
+  text-align: right;
+  font-stretch: expanded;
+  letter-spacing: 30px;
+  padding-top: 100px;
+  padding-right: 10px;
+  color: #ffbb94;
+  opacity: 1;
+}
+
+h5 {
+  font-size: 20px;
+  text-align: right;
+  font-stretch: expanded;
+  color: #ffbb94;
+  padding-top: 80px;
+  padding-bottom: 350px;
+  padding-right: 10px;
+  opacity: 1;
+}
+
+#dynamicBlog {
+  background-color: white;
+  text-align: center;
+  position: center;
+  padding-bottom: 70px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+
+}
+
+h3 {
+  text-align: left;
+  font-size: 40px;
+  padding-top: 40px;
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+.col-sm-4 {
+  position: relative;
+}
+
+.dyanmicBlogImage{
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+}
+
+.dynamicBlogText{
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.8);
+  opacity: 0;
+  z-index: 5;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+  vertical-align: middle;
+  line-height:200px;
+  }
+
+.dynamicBlogText:hover {
+  opacity: 1;
+}
+
+.col-sm {
+  padding: 70px;
+}
+
+.row {
+  padding: 30px;
+}
+
+
+.stories {
+  text-align: center;
+  background-color: white;
+  height: 400px;
+  position: relative;
+  margin-top:: -50px;
+  padding-top: -50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  }
+
+.blog {
+  text-align: center;
+  background-color: white;
+  height: 400px;
+  position: relative;
+  margin-top:: -50px;
+  padding-top: -50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.events {
+  text-align: center;
+  background-color: white;
+  height: 400px;
+  position: relative;
+  margin-top:: -50px;
+  padding-top: -50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.art {
+  text-align: center;
+  background-color: white;
+  height: 400px;
+  position: relative;
+  margin-top:: -50px;
+  padding-top: -50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.submit {
+  text-align: center;
+  background-color: white;
+  height: 400px;
+  position: relative;
+  margin-top:: -50px;
+  padding-top: -50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.navSiteImage {
+  position=center;
+  padding-right: 0px;
+  margin-top:: -20px;
+  padding-top: -20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
