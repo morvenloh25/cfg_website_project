@@ -10,6 +10,51 @@ body {
     background-attachment: fixed;
   }
 
+  .transparent {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .Navbar {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    padding: 16px;
+    color: black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    font-size: 110%;
+    height: 12%;
+  }
+
+  .Navbar__Link {
+    padding-right: 40px;
+    text-decoration: none;
+    margin-left: 0px;
+    padding-right: 8px;
+    display: block;
+    padding: 5px 10px;
+    width: 140px;
+    cursor: pointer;
+  }
+
+  .Navbar__Items {
+    display: flex;
+  }
+
+  .Navbar__Items--right{
+    margin-left: auto;
+  }
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffbb94;
+  text-decoration: none;
+}
+
   .show-main .main {
     display: block;
   }
@@ -26,38 +71,6 @@ body {
     display: block;
   }
 
-  .btn {
-    display: block;
-    padding: 5px 10px;
-    width: 140px;
-    color: black;
-    text-transform: uppercase;
-    text-align: center;
-    cursor: pointer;
-  }
-
-.transparent {
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-
-.mainNav {
-  text-align: center;
-  padding-bottom: 70px;
-  margin-top: -10px;
-  margin-bottom: 30px;
-  position: fixed;
-}
-#main {
-  transition: margin-left .5s;
-  padding: 20px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 
 .row {
   padding: 30px;
@@ -80,16 +93,10 @@ h5 {
   font-size: 150%;
   text-align: right;
   font-stretch: expanded;
-  color: rgb(255, 255, 255);
+  color: rgb(112, 128, 144);
   padding-bottom: 10%;
   margin-right: 0%;
   opacity: 1;
-}
-
-#titleTwo {
-  background-color: #ffbb94;
-  padding-left: -30px;
-  opacity: 0.9;
 }
 
 .dynamicBlog {
@@ -101,7 +108,7 @@ h5 {
 }
 
 a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -164,11 +171,7 @@ h3 {
   margin-bottom: 50px;
 }
 
-h2 {
-  text-align: center;
-}
-
-p {
+h2, p {
   text-align: center;
 }
 
