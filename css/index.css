@@ -187,3 +187,7 @@ h2, p {
 #copyright {
   color: black;
 }
+
+.dropdown-menu-visible {
+  display: block;
+}
