@@ -10,6 +10,32 @@ body {
     background-attachment: fixed;
   }
 
+  .show-main .main {
+    display: block;
+  }
+
+  .show-main .safety {
+    display: none;
+  }
+
+  .show-safety .main {
+    display: none;
+  }
+
+  .show-safety .safety {
+    display: block;
+  }
+
+  .btn {
+    display: block;
+    padding: 5px 10px;
+    width: 140px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+  }
+
 .transparent {
   background-color: rgba(255, 255, 255, 0.9);
 }
@@ -21,6 +47,16 @@ body {
   margin-top: -10px;
   margin-bottom: 30px;
   position: fixed;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 .row {
@@ -50,7 +86,7 @@ h5 {
   opacity: 1;
 }
 
-#title {
+#titleTwo {
   background-color: #ffbb94;
   padding-left: -30px;
   opacity: 0.9;
