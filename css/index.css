@@ -1,76 +1,103 @@
 body {
-    width: 100vw;
-    height: 100vw;
-    font-family: 'Inconsolata', monospace;
-    background-image: url('../images/greenplants.jpg');
-    background-origin: content-box;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+  width: 100vw;
+  height: 100vw;
+  font-family: 'Inconsolata', monospace;
+  background-image: url('../images/greenplants.jpg');
+  background-origin: content-box;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
-  .transparent {
-    background-color: rgba(255, 255, 255, 0.9);
-  }
+.transparent {
+  background-color: rgba(255, 255, 255, 0.9);
+}
 
-  .Navbar {
-    background-color: rgba(255, 255, 255, 0.7);
-    display: flex;
-    padding: 16px;
-    color: black;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    font-size: 110%;
-    height: 12%;
-  }
+.Navbar {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  padding: 16px;
+  color: black;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  font-size: 110%;
+  height: 12%;
+}
 
-  .Navbar__Link {
-    padding-right: 40px;
-    text-decoration: none;
-    margin-left: 0px;
-    padding-right: 8px;
-    display: block;
-    padding: 5px 10px;
-    width: 140px;
-    cursor: pointer;
-  }
+.Navbar__Link {
+  padding-right: 40px;
+  text-decoration: none;
+  margin-left: 0px;
+  padding-right: 8px;
+  display: block;
+  padding: 5px 10px;
+  width: 140px;
+  cursor: pointer;
+}
 
-  .Navbar__Items {
-    display: flex;
-  }
+.Navbar__Items {
+  display: flex;
+}
 
-  .Navbar__Items--right{
-    margin-left: auto;
-  }
+.Navbar__Items--right{
+  margin-left: auto;
+}
 
-a {
+.dropdown-toggle {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu, .dropdown-menu-left{
+  display: none;
+  position: absolute;
+  background-color: #ffbb94;
+  opacity: 0.95;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 15px, 15px;
+  z-index: 1;
+  text-align: center;
+  font-size: 150%;
+}
+
+.dropdown-toggle:hover .dropdown-item {
+  display: block;
+}
+
+#nav-bar-link {
   color: rgb(0, 0, 0);
   text-decoration: none;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
 }
 
 a:hover {
   color: #ffbb94;
   text-decoration: none;
 }
-
-  .show-main .main {
+.show-main .main {
     display: block;
   }
 
-  .show-main .safety {
+.show-main .safety {
     display: none;
   }
 
-  .show-safety .main {
+.show-safety .main {
     display: none;
   }
 
-  .show-safety .safety {
+.show-safety .safety {
     display: block;
   }
-
 
 .row {
   padding: 30px;
@@ -93,7 +120,7 @@ h5 {
   font-size: 150%;
   text-align: right;
   font-stretch: expanded;
-  color: rgb(112, 128, 144);
+  color: rgb(198, 140, 107);
   padding-bottom: 10%;
   margin-right: 0%;
   opacity: 1;
@@ -106,17 +133,6 @@ h5 {
   margin-top: -10px;
   margin-bottom: 30px;
 }
-
-a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-}
-
-a:hover {
-  color: #ffbb94;
-  text-decoration: none;
-}
-
 
 h3 {
   text-align: left;
@@ -137,7 +153,6 @@ h3 {
   height: 200px;
   top: 0;
   left: 30%
-
 }
 
 .dynamicBlogText{
@@ -157,13 +172,11 @@ h3 {
   transition: opacity 0.6s;
   vertical-align: middle;
   line-height:170%;
-
-  }
+}
 
 .dynamicBlogText:hover {
   opacity: 1;
 }
-
 
 .submit, .art, .events, .stories, .blog {
   text-align: center;
