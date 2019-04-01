@@ -1,8 +1,8 @@
 body {
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   font-family: 'Inconsolata', monospace;
-  background-image: url('../images/greenplants.jpg');
+  background-image: url('../images/plants2.jpg');
   background-origin: content-box;
   background-size: cover;
   background-position: center;
@@ -152,4 +152,8 @@ h2  {
 
 .dropdown-menu-visible {
   display: block;
+}
+
+#footer {
+  margin-top: 20px;
 }
