@@ -1,0 +1,149 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="CSNDRA" content="Community survivors of abuse share positive content and stories">
+    <meta name="csndra" content="">
+
+    <link rel="icon" href="../images/csndra.logo.png">
+
+    <title>CSNDRA</title>
+
+    <!-- Bootstrap core -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <!-- css link -->
+  <link rel="stylesheet" type="text/css" href="../css/contact_form.css">
+
+    <!--font-famiy-->
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+</head>
+
+<body class="show-main content">
+
+    <!--Navigation bar-->
+
+<div class="Navbar">
+  <div class="Navbar__Link Navbar__Link-brand"><a href="../html/index.html" class="nav-bar-link">CSNDRA</a></div>
+    <nav class="Navbar__Items">
+      <div class="Navbar__Link"><a href="http://google.com" class="nav-bar-link">Escape</a></div>
+    </nav>
+      <nav class="Navbar__Items Navbar__Items--right">
+        <div class="Navbar__Link">  <a class="btn" input=button>
+          <span class="main">Safety Mode</span>
+            <span class="safety">Take Me Back</span></a>
+        </div>
+         <div class="Navbar__Link Navbar__Link-toggle">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars" style="font-size:26px; color:black;"></i></button>
+            <ul class="dropdown-menu dropdown-menu-right">
+                <li><a href="../html/index.html" class="dropdown-item" type="button">Home</a></li>
+                  <li><a href="../html/about.html" class="dropdown-item" type="button">About</a></li>
+                    <li><a href="" class="dropdown-item" type="button">Stories</a></li>
+                      <li><a href="" class="dropdown-item" type="button">Blog</a></li>
+                        <li><a href="" class="dropdown-item" type="button">Events</a></li>
+                          <li><a href="" class="dropdown-item" type="button">Media</a></li>
+                            <li><a href="" class="dropdown-item" type="button">Submit a Piece</a></li>
+                              <li><a href="../html/contact_form.html" class="dropdown-item" type="button">Contact</a></li>
+                                <li><a href="https://www.standtall.org/" class="dropdown-item" type="button">Resources</a></li>
+            </ul>
+          </div>
+        </nav>
+</div>
+
+<div>
+  <h1>Contact Us</h1>
+  <h2>fun snappy title</h2>
+</div>
+
+<!--contact form-->
+
+<div class="container">
+  <div class="col-12-main">
+
+<div id="form-messages"></div>
+<link rel="stylesheet" type="text/css" href="../css/contact_form_2.css">
+
+<form id="ajax-contact" method="post" action="mailer.php">
+    <div class="field">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="field">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="field">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    </div>
+
+    <div class="field">
+        <button type="submit">Send</button>
+    </div>
+</form>
+
+</div></div>
+
+<!--end of contact form-->
+
+
+<!--contact form separate js-->
+<script src="../js/jquery-2.1.0.min.js"></script>
+<script> src="../js/app.js"></script>
+<!--end of contact form js-->
+
+<!-- Footer -->
+<footer id="footer" class="page-footer font-small special-color-dark pt-4 footer transparent">
+
+    <!-- Footer Elements -->
+    <div class="container-fluid">
+
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <class="facebookbutton">
+            <a href="https://www.facebook.com/"><img src="../images/facebook.png" height="50" width="50"></a>
+        </li>
+        <li class="list-inline-item">
+          <class="twitterbutton">
+            <a href="https://www.twitter.com"><img src="../images/twitter.png" height="50" width="50"></a>
+        </li>
+        <li class="list-inline-item">
+          <class="instagrambutton">
+            <a href="https://www.instagram.com"><img src="../images/insta.png" height="50" width="50"></a>
+        </li>
+        <li class="list-inline-item">
+          <class="linkedinbutton">
+            <a href="https://www.linkedin.com"><img src="../images/linkedin.png" height="50" width="50"></a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a id="copyright" href="https://www.google.com/search?q=smiling+llama&rlz=1C5CHFA_enGB768GB768&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiAub7lq6DhAhVWRhUIHcwFBqwQ_AUIDigB&biw=1400&bih=701"> Morven, Sarah & Michelle are awesome</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+  <!--js link-->
+  <script type="text/javascript" lang="javascript" src="../js/contact_form.js"></script>
+
+
+
+</body>
+</html>
