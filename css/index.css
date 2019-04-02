@@ -50,7 +50,6 @@ body {
   display: inline-block;
 }
 
-
 .dropdown-menu, .dropdown-menu-right{
   display: none;
   position: absolute;
@@ -104,6 +103,7 @@ a:hover, a.nav-bar-link:hover, .dropdown-item:hover {
   color: #ffbb94;
   text-decoration: none;
 }
+
 .show-main .main {
     display: block;
   }
@@ -221,7 +221,6 @@ h2, p {
 #copyright {
   color: black;
 }
-
 
 .dropdown-menu-visible {
   display: block;

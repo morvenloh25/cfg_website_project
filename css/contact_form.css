@@ -127,25 +127,25 @@ a:hover, a.nav-bar-link:hover, .dropdown-item:hover {
   display: block;
 }
 
- h1 {
-      font-size: 1000%;
-      color: #ffbb94;
-      opacity: 1;
-      font-stretch: expanded;
-      letter-spacing: 30px;
-      text-align: right;
-      padding-top: 5%;
-      margin: 20px;
-      display: flex;
-  }
+h1 {
+  font-size: 1000%;
+  color: #ffbb94;
+  opacity: 1;
+  font-stretch: expanded;
+  letter-spacing: 30px;
+  text-align: right;
+  padding-top: 5%;
+  margin: 20px;
+  display: flex;
+}
 
 h2  {
-    color: rgb(198, 140, 107);
-    padding-bottom: 0%;
-    font-size: 200%;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8)
-  }
+  color: rgb(198, 140, 107);
+  padding-bottom: 0%;
+  font-size: 200%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8)
+}
 
 #copyright {
   color: black;
