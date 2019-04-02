@@ -1,8 +1,8 @@
 body {
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   font-family: 'Inconsolata', monospace;
-  background-image: url('../images/green.2.jpg');
+  background-image: url('../images/plants2.jpg');
   background-origin: content-box;
   background-size: cover;
   background-position: center;
@@ -119,49 +119,33 @@ a:hover, a.nav-bar-link:hover, .dropdown-item:hover {
     display: block;
   }
 
-h1 {
-  font-size: 1000%;
-  color: #ffbb94;
-  opacity: 1;
-  font-stretch: expanded;
-  letter-spacing: 30px;
-  text-align: right;
-  padding-top: 10%;
-  margin: auto;
-  display: flex;
+.row {
+  padding: 30px;
 }
 
-h3  {
-  color: rgb(198, 140, 107);
-  padding-bottom: 0%;
-  font-size: 500%;
+.dropdown-menu-visible {
+  display: block;
 }
 
-h5 {
-  font-size: 150%;
-  text-align: centre;
-  font-stretch: expanded;
-  color: rgb(198, 140, 107);
-  padding-bottom: 0%;
-  background-color: rgba(255, 255, 255, 0.8);
-}
+ h1 {
+      font-size: 1000%;
+      color: #ffbb94;
+      opacity: 1;
+      font-stretch: expanded;
+      letter-spacing: 30px;
+      text-align: right;
+      padding-top: 5%;
+      margin: 20px;
+      display: flex;
+  }
 
-.imageDA {
-  height: 600px;
-  width: 600px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  margin-left: 20px;
-  justify-content: center;
-}
-
-p {
-  margin-left: 20px;
-}
-
-.stats {
-  color: black;
-}
+h2  {
+    color: rgb(198, 140, 107);
+    padding-bottom: 0%;
+    font-size: 200%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8)
+  }
 
 #copyright {
   color: black;
@@ -169,4 +153,8 @@ p {
 
 .dropdown-menu-visible {
   display: block;
+}
+
+#footer {
+  margin-top: 20px;
 }
